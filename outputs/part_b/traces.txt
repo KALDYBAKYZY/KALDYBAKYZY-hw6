@@ -1,0 +1,193 @@
+* = agent position
+
+=== Example episode: not slippery, fixed policy | episode seed 11000 | 6 steps ===
+
+*FFF
+FHFH
+FFFH
+HFFG
+
+  (Down)
+SFFF
+*HFH
+FFFH
+HFFG
+
+  (Down)
+SFFF
+FHFH
+*FFH
+HFFG
+
+  (Right)
+SFFF
+FHFH
+F*FH
+HFFG
+
+  (Down)
+SFFF
+FHFH
+FFFH
+H*FG
+
+  (Right)
+SFFF
+FHFH
+FFFH
+HF*G
+
+  (Right)
+SFFF
+FHFH
+FFFH
+HFF*
+
+
+=== Successful episode: slippery, fixed policy | episode seed 11020 | 14 steps ===
+
+*FFF
+FHFH
+FFFH
+HFFG
+
+  (Down)
+SFFF
+*HFH
+FFFH
+HFFG
+
+  (Down)
+SFFF
+*HFH
+FFFH
+HFFG
+
+  (Down)
+SFFF
+FHFH
+*FFH
+HFFG
+
+  (Right)
+SFFF
+FHFH
+F*FH
+HFFG
+
+  (Down)
+SFFF
+FHFH
+FFFH
+H*FG
+
+  (Right)
+SFFF
+FHFH
+FFFH
+H*FG
+
+  (Right)
+SFFF
+FHFH
+F*FH
+HFFG
+
+  (Down)
+SFFF
+FHFH
+FF*H
+HFFG
+
+  (Down)
+SFFF
+FHFH
+F*FH
+HFFG
+
+  (Down)
+SFFF
+FHFH
+FF*H
+HFFG
+
+  (Down)
+SFFF
+FHFH
+FFFH
+HF*G
+
+  (Right)
+SFFF
+FHFH
+FF*H
+HFFG
+
+  (Down)
+SFFF
+FHFH
+FFFH
+HF*G
+
+  (Right)
+SFFF
+FHFH
+FFFH
+HFF*
+
+
+=== Failed episode: slippery, fixed policy | episode seed 11000 | 8 steps ===
+
+*FFF
+FHFH
+FFFH
+HFFG
+
+  (Down)
+S*FF
+FHFH
+FFFH
+HFFG
+
+  (Left)
+S*FF
+FHFH
+FFFH
+HFFG
+
+  (Left)
+S*FF
+FHFH
+FFFH
+HFFG
+
+  (Left)
+S*FF
+FHFH
+FFFH
+HFFG
+
+  (Left)
+*FFF
+FHFH
+FFFH
+HFFG
+
+  (Down)
+SFFF
+*HFH
+FFFH
+HFFG
+
+  (Down)
+SFFF
+*HFH
+FFFH
+HFFG
+
+  (Down)
+SFFF
+F*FH
+FFFH
+HFFG
+
