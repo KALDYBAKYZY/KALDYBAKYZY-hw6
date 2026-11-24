@@ -1,0 +1,17 @@
+[PASS] Boundary: (1,1) up stays at (1,1) with reward -1
+[PASS] Wall: (3,2) up stays at (3,2) with reward -1
+[PASS] Wall on ice: (2,3) left stays on ice with probability 0.8
+[PASS] Mud blocked: (1,2) up stays on mud with reward -3
+[PASS] Ice probabilities for up sum to 1 (sum = 1)
+[PASS] Ice probabilities for right sum to 1 (sum = 1)
+[PASS] Ice probabilities for down sum to 1 (sum = 1)
+[PASS] Ice probabilities for left sum to 1 (sum = 1)
+[PASS] Mud reward: (1,1) right into M gives -3
+[PASS] Sand reward: (3,1) right into D gives -2
+[PASS] Water reward: (3,3) right into W gives -5
+[PASS] Sand is deterministic: one outcome from (3,2)
+[PASS] Water is deterministic: one outcome from (3,4)
+[PASS] Goal gives +10 on entry: (1,3) right
+[PASS] No rewards after termination: G and H have no outcomes
+[PASS] Terminal values stay 0
+[PASS] Wall is not a state
